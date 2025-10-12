@@ -1,0 +1,11 @@
+
+def arredonda(v):
+    return round(v)
+
+def main():
+    
+    valor = float(input())
+    print(arredonda(valor))
+
+if __name__ == "__main__":
+    main()
